@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 def pytest_addoption(parser):
-    parser.addoption('--language', action='store', default = 'en',
+    parser.addoption('--language', action='store', default = None,
                      help="Choose language:ru, es, etc.")
     
 
